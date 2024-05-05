@@ -4,10 +4,10 @@
     "description": "Symfony bundle for implementing Cookie Consent to comply to AVG/GDPR.",
     "license": "MIT",
     "require": {
-        "php": "^7.2 || ^8.0.2",
+        "php": ">=8.2",
         "doctrine/annotations": "^1.6|^2.0",
-        "doctrine/doctrine-bundle": "^1.10 || ^2.0",
-        "doctrine/orm": "^2.5",
+        "doctrine/doctrine-bundle": "^2.12",
+        "doctrine/orm": "^3.1",
         "symfony/asset": "^3.4 || ^4.2 || ^5.0 || ^6.0",
         "symfony/dependency-injection": "^3.4 || ^4.2 || ^5.0 || ^6.0",
         "symfony/doctrine-bridge": "^3.4 || ^4.2 || ^5.0 || ^6.0",
@@ -22,8 +22,8 @@
         "twig/twig": "^2.6 || ^3.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.14",
-        "phpunit/phpunit": "^7.5",
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpunit/phpunit": "^9.5",
         "symfony/yaml": "^3.4 || ^4.2 || ^5.0 || ^6.0"
     },
     "prefer-stable": true,
